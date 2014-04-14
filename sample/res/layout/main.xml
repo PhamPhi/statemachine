@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent"
+		>
+
+	<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="20dp"
+			android:background="@android:color/darker_gray"
+			android:textColor="@android:color/black"
+			android:text="Hi, i'm a demo for the State Machine Library"
+			/>
+
+	<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="20dp"
+			android:text="Currently this application state holds the following text:"
+			/>
+
+	<TextView
+			android:id="@+id/statetext"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="20dp"
+			android:layout_margin="20dp"
+			android:background="#668877"
+			android:text="replace text here"
+			/>
+
+
+
+		<Button
+				android:id="@+id/gotoadjuststate"
+				android:text="Change state"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+	<Button
+			android:id="@+id/wipestate"
+			android:text="Wipe state"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+
+		<Button
+				android:id="@+id/gotosecond"
+				android:text="Go Somewhere else"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
+

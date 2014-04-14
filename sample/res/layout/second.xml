@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent"
+		>
+
+
+	<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="20dp"
+			android:text="In this activity, the application state holds the following text:"
+			/>
+
+	<TextView
+			android:id="@+id/statetext"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="20dp"
+			android:layout_margin="20dp"
+			android:background="#668877"
+			android:text="replace text here"
+			/>
+
+	<Button
+			android:id="@+id/finish"
+			android:text="finish"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+</LinearLayout>
+

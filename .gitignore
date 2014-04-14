@@ -11,8 +11,10 @@
 # Generated files
 bin/
 gen/
+out/
 
 # Gradle files
+.idea/
 .gradle/
 build/
 
